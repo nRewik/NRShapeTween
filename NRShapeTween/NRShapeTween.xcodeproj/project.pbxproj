@@ -13,6 +13,7 @@
 		3F66E01C1B622619008D8114 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F66E01B1B622619008D8114 /* Images.xcassets */; };
 		3F66E01F1B622619008D8114 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F66E01D1B622619008D8114 /* LaunchScreen.xib */; };
 		3F66E02B1B622619008D8114 /* NRShapeTweenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F66E02A1B622619008D8114 /* NRShapeTweenTests.swift */; };
+		A03D2CC61B62BAC300ABA74C /* NRShapeTweenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03D2CC51B62BAC300ABA74C /* NRShapeTweenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3F66E0241B622619008D8114 /* NRShapeTweenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NRShapeTweenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F66E0291B622619008D8114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F66E02A1B622619008D8114 /* NRShapeTweenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRShapeTweenTests.swift; sourceTree = "<group>"; };
+		A03D2CC51B62BAC300ABA74C /* NRShapeTweenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRShapeTweenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				3F66E0141B622619008D8114 /* AppDelegate.swift */,
 				3F66E0161B622619008D8114 /* ViewController.swift */,
 				3F66E0181B622619008D8114 /* Main.storyboard */,
+				A03D2CC51B62BAC300ABA74C /* NRShapeTweenView.swift */,
 				3F66E01B1B622619008D8114 /* Images.xcassets */,
 				3F66E01D1B622619008D8114 /* LaunchScreen.xib */,
 				3F66E0121B622619008D8114 /* Supporting Files */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F66E0171B622619008D8114 /* ViewController.swift in Sources */,
+				A03D2CC61B62BAC300ABA74C /* NRShapeTweenView.swift in Sources */,
 				3F66E0151B622619008D8114 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +413,7 @@
 				3F66E0301B622619008D8114 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F66E0311B622619008D8114 /* Build configuration list for PBXNativeTarget "NRShapeTweenTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				3F66E0331B622619008D8114 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

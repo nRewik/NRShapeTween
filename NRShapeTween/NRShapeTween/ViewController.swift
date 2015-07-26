@@ -10,16 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var shapeTweenView: NRShapeTweenView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func sliderValueChanged(sender: UISlider) {
+        shapeTweenView.side = sender.value
     }
-
+    @IBAction func buttonClick() {
+//        shapeTweenView.setSide(6.0)
+        shapeTweenView.animateToSide(6.0, duration: 3.0)
+    }
 
 }
 
